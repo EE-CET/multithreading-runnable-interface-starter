@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Check Runnable Output",
+      "setup": "javac src/RunnableThread.java",
+      "run": "java -cp src RunnableThread",
+      "input": "",
+      "output": "1 2 3 4 5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
